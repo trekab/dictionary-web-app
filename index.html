@@ -3,12 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Dictionary web app</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">  
+  <title>Dictionary web app</title>
 </head>
 <body>
-
+  <header>
+    <div>
+      <img src="./assets/images/logo.svg" alt="logo">
+      <select name="fonts" id="fonts">
+        <option value="sans-serif">Sans Serif</option>
+        <option value="serif">Serif</option>
+        <option value="mono">Mono</option>
+      </select>
+    </div>
+    <div>
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <img src="./assets/images/icon-moon.svg" alt="theme-icon">
+    </div>
+  </header>
+  <main>
+    <form>
+      <input type="text" id="search" name="search" placeholder="Search...">
+      <button type="submit">
+        <img src="./assets/images/icon-search.svg" alt="search">
+      </button>
+    </form>
+    <section>
+      <h1>keyboard</h1>
+      <img src="./assets/images/icon-play.svg" alt="play icon">
+      <p>/'ki:bɔ:d/</p>
+      <section>
+        <h2>noun</h2>
+        <p>Meaning</p>
+        <ul>
+          <li>(etc.) A set of keys used to operate a typewriter, computer etc.</li>
+          <li>A component of many instruments including the piano, organ, and harpsichord consisting of usually black and white keys that cause different tones to be produced when struck.</li>
+          <li>A device with keys of a musical keyboard, used to control electronic sound-producing devices which may be built into or separate from the keyboard device.</li>
+        </ul>
+        <p>
+          Synonyms <a href="/">electronic keyboard</a>
+        </p>
+      </section>
+      <section>
+        <h2>verb</h2>
+        <p>Meaning</p>
+        <ul>
+          <li>To type on a computer keyboard.</li>
+        </ul>
+        <blockquote>Keyboarding is the part of this job I hate the most.</blockquote>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <p>Source <a href="https://en.wiktionary.org/wiki/keyboard">https://en.wiktionary.org/wiki/keyboard</a></p>
+  </footer>
 </body>
 </html>
