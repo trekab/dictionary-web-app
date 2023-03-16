@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">  
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"> 
+  <link rel="stylesheet" href="./main.css"> 
   <title>Dictionary web app</title>
 </head>
 <body>
   <header>
-    <div>
+    <div class="logo-select">
       <img src="./assets/images/logo.svg" alt="logo">
       <select name="fonts" id="fonts">
         <option value="sans-serif">Sans Serif</option>
@@ -16,7 +17,7 @@
         <option value="mono">Mono</option>
       </select>
     </div>
-    <div>
+    <div class="theme-switch">
       <label class="switch">
         <input type="checkbox">
         <span class="slider round"></span>
